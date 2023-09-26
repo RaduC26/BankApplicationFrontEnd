@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.account-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.account-table th,
+.account-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.account-table th {
+  background-color: #f2f2f2;
+}
